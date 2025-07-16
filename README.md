@@ -1,23 +1,23 @@
-# gpu-image-classification-demo
+# gpu-image-classification-demonstration
 
 ## README.md
 
-# Image Classification on GPU with PyTorch
+# Run Image Classification on GPU with PyTorch
 
-This demo shows how to run image classification using a pretrained ResNet-50 model on GPU with PyTorch. We compare inference speed on CPU vs GPU.
+This is a quick demo that loads a pretrained ResNet-50 model from PyTorch and uses it to classify images. It compares CPU vs GPU inference speed. This is a very lightweight demo for beginners on how to use and run image classification using python3.  If you want more basic context for setting this up, I've added some notes to the end of this README.md
 
-### 🔧 Requirements
+### Requirements
 ```bash
-pip install torch torchvision matplotlib
+pip install torch torchvision pillow matplotlib
 ```
 
-If using Google Colab, make sure to select `Runtime > Change runtime type > GPU`
+If you're using Google Colab, go to `Runtime > Change runtime type > GPU` before running the notebook.
 
-### 🚀 Run the Script
+### To Run as a Script
 ```bash
 python classify.py --img images/dog.jpg
 ```
 
-Or open `notebook_version.ipynb` in Jupyter or Colab.
+Or open `notebook_version.ipynb` and try it out interactively.
 
----
+###
